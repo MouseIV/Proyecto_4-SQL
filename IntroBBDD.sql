@@ -24,7 +24,7 @@ WHERE aircraft_code = '733';
 SELECT *
 FROM tickets
 WHERE passenger_name LIKE 'Irina%';
-s
+
 
 -- 6. Ciudades con más de un aeropuerto
 SELECT city, COUNT(*) AS airport_count
